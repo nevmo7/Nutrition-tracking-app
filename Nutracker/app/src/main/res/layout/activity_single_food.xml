@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SingleFoodActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin = "10dp">
+
+        <com.anychart.anychart.AnyChartView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:id="@+id/nutritionChart"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:id="@+id/saveBtn"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:weightSum="100">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="60"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:textSize="30dp"/>
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:id="@+id/volume"
+                android:layout_weight="20"
+                android:textSize="30dp"
+                android:layout_width="0dp"
+                android:inputType="number"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_weight="20"
+                android:layout_height="wrap_content"
+                android:id="@+id/unit"
+                android:textSize="30dp"
+                android:layout_width="0dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/calories"
+            android:textSize="20dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/protein"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fat"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/carbs"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sugar"
+            android:textSize="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

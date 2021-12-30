@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "973267127230",
+    "firebase_url": "https://nutracker-bb09e-default-rtdb.firebaseio.com",
+    "project_id": "nutracker-bb09e",
+    "storage_bucket": "nutracker-bb09e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973267127230:android:73e091ed561ba9b058c7ef",
+        "android_client_info": {
+          "package_name": "com.example.nutracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973267127230-k727bame4tfkgkl1cjeer6tmrkoad4bh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1fmOxdPolxkWF0ovugODvW6HOCrB2TSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973267127230-k727bame4tfkgkl1cjeer6tmrkoad4bh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
